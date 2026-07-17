@@ -64,7 +64,7 @@ CKA · KCNA · Prometheus Certified Associate · AWS SysOps Administrator · Cis
 
 - Website: [litanovo.com](https://litanovo.com)
 - LinkedIn: [linkedin.com/in/rodgersbiwott](https://www.linkedin.com/in/rodgersbiwott)
-- X: [@kiplongur](https://x.com/kiplongur)
+- X: [@kiplongu](https://x.com/kiplongu)
 - Email: [rodgersbiwott2016@gmail.com](mailto:rodgersbiwott2016@gmail.com)
 
 > I build platforms that help teams ship faster, see clearly, and recover confidently.
