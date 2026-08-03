@@ -2,7 +2,7 @@
 
 Senior DevOps & Cloud-Native Engineer. I design secure delivery platforms, automate infrastructure, and make distributed systems easier to operate.
 
-I'm also the creator of **ObserveX**, an observability command center being built at [Litanovo Labs](https://litanovo.com) to bring deployment intelligence, service health, security signals, and incident context into one operational view.
+I'm also the creator of **ObserveX**, an observability command center being built at Litanovo Labs to bring deployment intelligence, service health, security signals, and incident context into one operational view.
 
 I have 6+ years of experience working across bare-metal and cloud environments, with a focus on Kubernetes, GitOps, DevSecOps, reliability, and platform engineering. I enjoy turning fragile manual processes into repeatable systems that teams can trust.
 
@@ -17,7 +17,7 @@ I have 6+ years of experience working across bare-metal and cloud environments, 
 
 ## Building now
 
-### [ObserveX](https://litanovo.com/#products)
+### [ObserveX]
 
 An observability command center for teams operating modern applications. ObserveX is being designed to connect service health, deployments, infrastructure signals, security findings, and incident workflows so engineers can understand what changed and respond faster.
 
@@ -62,7 +62,6 @@ CKA · KCNA · Prometheus Certified Associate · AWS SysOps Administrator · Cis
 
 ## Let's connect
 
-- Website: [litanovo.com](https://litanovo.com)
 - LinkedIn: [linkedin.com/in/rodgersbiwott](https://www.linkedin.com/in/rodgersbiwott)
 - X: [@kiplongu](https://x.com/kiplongu)
 - Email: [rodgersbiwott2016@gmail.com](mailto:rodgersbiwott2016@gmail.com)
