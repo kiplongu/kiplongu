@@ -17,7 +17,7 @@ I have 6+ years of experience working across bare-metal and cloud environments, 
 
 ## Building now
 
-### [ObserveX]
+### ObserveX
 
 An observability command center for teams operating modern applications. ObserveX is being designed to connect service health, deployments, infrastructure signals, security findings, and incident workflows so engineers can understand what changed and respond faster.
 
@@ -63,7 +63,6 @@ CKA · KCNA · Prometheus Certified Associate · AWS SysOps Administrator · Cis
 ## Let's connect
 
 - LinkedIn: [linkedin.com/in/rodgersbiwott](https://www.linkedin.com/in/rodgersbiwott)
-- X: [@kiplongu](https://x.com/kiplongu)
 - Email: [rodgersbiwott2016@gmail.com](mailto:rodgersbiwott2016@gmail.com)
 
 > I build platforms that help teams ship faster, see clearly, and recover confidently.
