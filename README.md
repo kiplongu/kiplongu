@@ -1,96 +1,109 @@
 # Hey, I'm Rodgers Biwott 👋
 
-**Senior Platform Engineer | DevOps | SRE | Cloud-Native Infrastructure**
+**Senior DevOps, DevSecOps & Platform Engineer** working across Kubernetes, cloud infrastructure, GitOps, CI/CD, observability, security and site reliability engineering.
 
-I design and automate secure, reliable cloud-native platforms, with a focus on **Kubernetes, CI/CD, GitOps, observability, DevSecOps and production reliability**.
+I have 7+ years of experience designing delivery systems and operating platforms across cloud, on-premises and hybrid environments. I help engineering teams automate delivery, strengthen security, understand production behaviour and recover confidently when something fails.
 
-With **7+ years of experience**, I've worked across cloud, on-premises and hybrid infrastructure, helping teams automate delivery, improve platform visibility, strengthen security and troubleshoot complex distributed systems.
+I'm the creator of **ObserveX** and the **Production Readiness Assessment Engine**.
 
-My engineering philosophy is simple: **automate what is repetitive, observe what is running, secure what is deployed, and make recovery predictable.**
+> Automate what is repetitive, observe what is running, secure what is deployed and make recovery predictable.
+
+## 🚀 Featured engineering work
+
+### ObserveX + observex-platform
+
+ObserveX is an operational intelligence and observability application that connects service ownership, the four golden signals, SLOs, incidents, security evidence, deployment intelligence and platform health in focused operational workspaces.
+
+Its separate `observex-platform` repository provides the Kubernetes and GitOps delivery layer:
+
+- Immutable container releases with SBOM and signing evidence
+- Git-controlled promotion and rollback through Argo CD
+- Helm-based Kubernetes deployment and policy validation
+- Prometheus, Grafana, Loki, Tempo and OpenTelemetry integration
+- SLI/SLO recording rules and multi-window burn-rate alerting
+- Authenticated alert-to-incident workflows
+- PostgreSQL persistence, encrypted backups and restore verification
+- Keycloak SSO, Kyverno admission policy and runtime security controls
+
+[Read the ObserveX engineering case study →](https://kiplongu.github.io/#observex)
+
+### Production Readiness Assessment Engine
+
+A passive, evidence-led assessment toolkit for authorized application, GitOps and infrastructure repositories. It evaluates delivery, software supply-chain, container, Kubernetes, observability, recovery and operational controls without attacking or connecting to target systems.
+
+Key capabilities include:
+
+- Application, GitOps-platform and infrastructure assessment profiles
+- CI policy gates with configurable risk thresholds
+- Governed exceptions with owners, reasons and expiry dates
+- Read-only Docker execution for additional isolation
+- Client-ready JSON, HTML and branded PDF reports
+- Documented assessment methodology and rules of engagement
+
+[View the featured work overview →](https://kiplongu.github.io/#work)
 
 ## 🔭 What I work on
 
-- **Platform Engineering:** Kubernetes, OpenShift, Helm, workload orchestration, high availability and platform automation.
-- **Observability & SRE:** Prometheus, Grafana, Loki, Tempo, OpenTelemetry, Alertmanager, SLIs/SLOs, error budgets and incident response.
-- **CI/CD & GitOps:** Jenkins, Azure DevOps, GitHub Actions, ArgoCD, immutable releases, deployment promotion and rollback.
-- **Cloud & Infrastructure:** AWS, Azure, Terraform, Ansible, Linux, networking and infrastructure automation.
-- **DevSecOps:** Kyverno, Vault, Trivy, SonarQube, CodeQL, OWASP ZAP, Checkov, SBOMs and software supply-chain security.
-- **Data & Reliability:** PostgreSQL, RLS, connection pooling, database migrations, backup automation and disaster recovery.
+- **Platform Engineering:** Kubernetes, OpenShift, Helm, high availability, workload orchestration and platform automation
+- **Observability & SRE:** Prometheus, Grafana, Loki, Tempo, OpenTelemetry, Alertmanager, SLIs/SLOs, error budgets and incident response
+- **CI/CD & GitOps:** Jenkins, Azure DevOps, GitHub Actions, GitLab CI/CD, Argo CD, immutable releases, promotion and rollback
+- **Cloud & Infrastructure:** AWS, Azure, GCP, Terraform, OpenTofu, Ansible, Linux, networking and infrastructure automation
+- **DevSecOps:** Kyverno, Vault, Trivy, SonarQube, CodeQL, Gitleaks, OWASP ZAP, Checkov, SBOMs and artifact signing
+- **Data & Reliability:** PostgreSQL, Redis, MinIO, Ceph, Longhorn, database migrations, backup automation and disaster recovery
 
-## 🛠️ Selected engineering work
+## 🛠️ Additional engineering experience
 
-### Kubernetes Observability & SRE
+### Kubernetes observability & SRE
 
-Designed and implemented observability capabilities for a Kubernetes-based application platform, integrating **Prometheus, Grafana, Loki, Tempo and OpenTelemetry**.
+- Centralized metrics, structured logging and distributed tracing
+- OpenTelemetry Collector pipelines and telemetry correlation
+- Four Golden Signals: latency, traffic, errors and saturation
+- Prometheus recording rules, Alertmanager integration and burn-rate alerts
+- Automated incident creation, severity classification and resolution workflows
+- Operational runbooks, synthetic alert-delivery tests and recovery verification
 
-Key engineering areas:
+### Kubernetes platform engineering & GitOps
 
-- Centralized metrics, structured logging and distributed tracing.
-- OpenTelemetry Collector pipelines and telemetry correlation.
-- Four Golden Signals: latency, traffic, errors and saturation.
-- Prometheus recording rules, alerting rules and Alertmanager integration.
-- SLI/SLO monitoring, error budgets and burn-rate alerting.
-- Automated incident creation, severity classification and resolution workflows.
-- Operational runbooks for application health, API latency, error rates and resource saturation.
-- Troubleshooting across Kubernetes workloads, application dependencies and PostgreSQL connection pools.
-- End-to-end synthetic alert-delivery testing and recovery verification.
+- Immutable container-image releases and digest-pinned deployments
+- Kubernetes RBAC, ServiceAccounts, NetworkPolicies and workload security controls
+- Horizontal Pod Autoscaling, PodDisruptionBudgets, health probes and topology spreading
+- Keycloak, OAuth2 Proxy and External Secrets integration patterns
+- Drift detection, deployment health verification and controlled rollback
 
-### Kubernetes Platform Engineering & GitOps
+### Infrastructure, CI/CD and test automation
 
-Implemented platform delivery and reliability patterns using **Kubernetes, Helm, Docker and ArgoCD**.
+- Jenkins and Azure DevOps pipeline automation across enterprise applications
+- Docker image build, validation, security scanning and registry publishing
+- Kubernetes-based browser testing with Playwright
+- Windows provisioning and GUI automation using PowerShell, C# and FlaUI
+- Infrastructure provisioning and configuration using Terraform and Ansible
+- Automated test reports, failure diagnostics and deployment verification
 
-- Immutable container-image releases and digest-pinned deployments.
-- GitOps-driven staging and production promotion.
-- Kubernetes RBAC, ServiceAccounts and NetworkPolicies.
-- Kyverno admission policies and workload security controls.
-- Horizontal Pod Autoscaling, PodDisruptionBudgets, health probes and topology spreading.
-- External Secrets, Keycloak and OAuth2 Proxy integration patterns.
-- Deployment health verification, drift detection and controlled rollback procedures.
+## ⚙️ Technical stack
 
-### DevSecOps & Software Supply Chain
+**Cloud & infrastructure**
 
-Integrated security controls throughout application delivery workflows.
+AWS · Azure · GCP · OCI · Terraform · OpenTofu · Ansible · Linux · Windows Server
 
-- Static application and dependency security analysis.
-- Container image and infrastructure-as-code scanning.
-- Secret scanning and Kubernetes policy enforcement.
-- Software Bill of Materials (SBOM) generation.
-- Artifact signing, provenance and immutable image verification.
-- Least-privilege access and centralized secrets management.
+**Containers & platform**
 
-### Infrastructure & CI/CD Automation
+Kubernetes · OpenShift · Docker · RKE2 · EKS · AKS · Helm · Kustomize · Argo CD · Flux CD · NGINX Ingress · Istio · KEDA
 
-Built and maintained automated delivery and testing workflows across Linux, Windows and Kubernetes environments.
+**CI/CD & automation**
 
-- Jenkins and Azure DevOps pipeline automation.
-- Docker image build, validation and registry publishing.
-- Kubernetes-based test execution using Playwright.
-- Windows application provisioning and GUI automation using PowerShell, C# and FlaUI.
-- Infrastructure provisioning and configuration using Terraform and Ansible.
-- Automated test reporting, failure diagnostics and deployment verification.
+Jenkins · Azure DevOps · GitHub Actions · GitLab CI/CD · Bash · PowerShell · Python · C#
 
-## ⚙️ Technical Stack
+**Security & identity**
 
-**Cloud & Infrastructure**  
-AWS · Azure · OCI · Terraform · Ansible · Linux · Windows Server
+Kyverno · Vault · Trivy · SonarQube · CodeQL · Gitleaks · OWASP ZAP · Checkov · Cosign · CycloneDX · External Secrets · Keycloak · OAuth2 Proxy
 
-**Containers & Platform**  
-Kubernetes · OpenShift · Docker · RKE2 · EKS · AKS · Helm · ArgoCD · NGINX Ingress · Istio
+**Observability & reliability**
 
-**Observability & SRE**  
 OpenTelemetry · Prometheus · Grafana · Loki · Tempo · Alertmanager · ELK · PromQL · SLIs/SLOs · Golden Signals · Incident Response
 
-**CI/CD & Automation**  
-Jenkins · Azure DevOps · GitHub Actions · GitLab CI/CD · GitOps · Bash · PowerShell · Python
+**Databases & storage**
 
-**Security & Identity**  
-Kyverno · Vault · Trivy · SonarQube · CodeQL · OWASP ZAP · Checkov · External Secrets · Keycloak · OAuth2 Proxy · RBAC
-
-**Databases & Storage**  
-PostgreSQL · SQL Server · Redis · Kafka · MinIO · Ceph · Longhorn · S3-compatible Storage · Backup & Recovery
-
-**Programming & Scripting**  
-Python · Bash · PowerShell · C# · SQL · Ruby
+PostgreSQL · SQL Server · Redis · Kafka · MinIO · Ceph · Longhorn · S3-compatible storage · Backup and restore verification
 
 ## 🎓 Certifications
 
@@ -101,19 +114,21 @@ Python · Bash · PowerShell · C# · SQL · Ruby
 - Oracle Cloud Infrastructure DevOps Professional
 - Oracle Cloud Infrastructure CyberOps Associate
 
-## 📚 Current Engineering Interests
+## 📚 Current focus
 
-- Enterprise observability architecture and OpenTelemetry
-- Kubernetes platform engineering and security
-- SRE, incident management and reliability automation
-- Internal developer platforms and GitOps
-- Distributed systems troubleshooting
+- Secure software delivery and software supply-chain assurance
+- Kubernetes platform engineering and policy automation
+- GitOps operating models and internal developer platforms
+- SLO-driven reliability and deployment-aware observability
+- Recovery engineering and production-readiness assessment
 - AI-assisted operations and incident investigation
 
-## 🤝 Let's Connect
+## 🤝 Let's connect
 
-- **LinkedIn:** [linkedin.com/in/rodgersbiwott](https://www.linkedin.com/in/rodgersbiwott)
-- **Email:** [rodgersbiwott2016@gmail.com](mailto:rodgersbiwott2016@gmail.com)
+- Portfolio: [kiplongu.github.io](https://kiplongu.github.io/)
+- LinkedIn: [linkedin.com/in/rodgersbiwott](https://www.linkedin.com/in/rodgersbiwott)
+- GitHub: [github.com/kiplongu](https://github.com/kiplongu)
+- Email: [rodgersbiwott2016@gmail.com](mailto:rodgersbiwott2016@gmail.com)
 
 ---
 
