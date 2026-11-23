@@ -107,12 +107,12 @@ PostgreSQL · SQL Server · Redis · Kafka · MinIO · Ceph · Longhorn · S3-co
 
 ## 🎓 Certifications
 
-- Certified Kubernetes Administrator (CKA)
-- Kubernetes and Cloud Native Associate (KCNA)
-- Prometheus Certified Associate (PCA)
-- AWS Certified SysOps Administrator
-- Oracle Cloud Infrastructure DevOps Professional
-- Oracle Cloud Infrastructure CyberOps Associate
+<a href="https://certdirectory.io/profile/rodgers-biwott?utm_source=github&utm_medium=readme">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://certdirectory.io/badge/rodgers-biwott.svg?style=card&theme=dark">
+    <img alt="Rodgers Biwott on CertDirectory" src="https://certdirectory.io/badge/rodgers-biwott.svg?style=card">
+  </picture>
+</a>
 
 ## 📚 Current focus
 
